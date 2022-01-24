@@ -1,0 +1,27 @@
+@import "home.css";
+@import "projects.css";
+@import "about.css";
+@import "navbar.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
+
+*,
+*::before,
+*::after {
+  font-family: "Dongle", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 30px;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #1d1d1d;
+}
