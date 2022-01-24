@@ -1,0 +1,15 @@
+.socials {
+  margin-top: 50px;
+}
+
+.socials__icon {
+  padding: 20px;
+}
+
+.socials a {
+  color: #909096;
+}
+
+.socials a:hover {
+  color: rgba(255, 255, 255, 0.712);
+}

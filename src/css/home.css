@@ -2,11 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .home__greeting {
   margin-top: 200px;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .home__greeting {
+    margin-top: 100px;
+  }
 }
 
 .home__greeting--header {
@@ -31,9 +38,3 @@
   font-weight: lighter;
   font-size: 1em;
 }
-
-/* .Typewriter__wrapper {
-    font-family: "Raleway", sans-serif;
-    color: #fff;
-    padding: 5px;
-} */
