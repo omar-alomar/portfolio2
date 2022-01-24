@@ -26,7 +26,7 @@ return (
             .pauseFor(1000)
             .typeString("<br/>I'm Omar,")
             .pauseFor(1000)
-            .typeString("<br/>Web designer.")
+            .typeString("<br/>Web Designer.")
             .pauseFor(1000)
             .deleteChars(7)
             .typeString("veloper.")
