@@ -16,11 +16,6 @@
   }
 }
 
-.home__greeting--header {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  padding: 5px;
-}
 .home__greeting h1 {
   font-size: 2rem;
 }
