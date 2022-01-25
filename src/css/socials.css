@@ -8,14 +8,14 @@
 
 .socials__icon--left {
   padding: 20px;
-  -webkit-animation: slide-in-left 3s ease-in-out 15s both;
-  animation: slide-in-left 3s ease-in-out 15s both;
+  -webkit-animation: slide-in-left 1.5s ease-in-out 15s both;
+  animation: slide-in-left 1.5s ease-in-out 15s both;
 }
 
 .socials__icon--right {
   padding: 20px;
-  -webkit-animation: slide-in-right 3s ease-in-out 15.5s both;
-  animation: slide-in-right 3s ease-in-out 15.5s both;
+  -webkit-animation: slide-in-right 1.5s ease-in-out 15s both;
+  animation: slide-in-right 1.5s ease-in-out 15s both;
 }
 
 .socials__icon--left--static {

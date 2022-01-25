@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.about h1 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: "Dongle", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  color: #08fdd8;
+  font-weight: 900px;
+  padding: 5px;
+  font-size: 3rem;
+}
+
+.about p {
+  font-family: "Dongle", sans-serif;
+  padding-bottom: 0.1rem;
+  /* font-family: "Raleway", sans-serif; */
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.about__resume__btn {
+  margin-top: 35px;
+  padding: 5px 40px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #08fdd8;
+  border: 1px solid #08fdd8;
+  font-family: "Dongle", sans-serif;
+  font-size: 1.3rem;
+}
+
+.about__resume__btn:hover {
+  background-color: #08fdd8;
+  color: #1d1d1d;
+}

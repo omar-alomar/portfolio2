@@ -17,6 +17,7 @@ return (
       <div className="greeting">
         <h1 className="greeting__header">
           <Typewriter 
+              // options={{delay: 110}}
               onInit={(typewriter) => {
               typewriter.typeString("<span>Hi</span>")
               .pauseFor(200)
