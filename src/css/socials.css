@@ -1,3 +1,5 @@
+/* TODO HIDE OVERFLOW X */
+
 .socials {
   margin-top: 50px;
   display: flex;
@@ -6,14 +8,22 @@
 
 .socials__icon--left {
   padding: 20px;
-  -webkit-animation: slide-in-left 2s ease-in-out 15s both;
-  animation: slide-in-left 2s ease-in-out 15s both;
+  -webkit-animation: slide-in-left 3s ease-in-out 15s both;
+  animation: slide-in-left 3s ease-in-out 15s both;
 }
 
 .socials__icon--right {
   padding: 20px;
-  -webkit-animation: slide-in-right 2s ease-in-out 16s both;
-  animation: slide-in-right 2s ease-in-out 16s both;
+  -webkit-animation: slide-in-right 3s ease-in-out 15.5s both;
+  animation: slide-in-right 3s ease-in-out 15.5s both;
+}
+
+.socials__icon--left--static {
+  padding: 20px;
+}
+
+.socials__icon--right--static {
+  padding: 20px;
 }
 
 .socials a {
@@ -29,6 +39,7 @@
     -webkit-transform: translateX(-1000px);
     transform: translateX(-1000px);
     opacity: 0;
+    color: #08fdd8;
   }
   100% {
     -webkit-transform: translateX(0);
@@ -41,6 +52,7 @@
     -webkit-transform: translateX(-1000px);
     transform: translateX(-1000px);
     opacity: 0;
+    color: #08fdd8;
   }
   100% {
     -webkit-transform: translateX(0);
@@ -54,6 +66,7 @@
     -webkit-transform: translateX(1000px);
     transform: translateX(1000px);
     opacity: 0;
+    color: #08fdd8;
   }
   100% {
     -webkit-transform: translateX(0);
@@ -66,6 +79,7 @@
     -webkit-transform: translateX(1000px);
     transform: translateX(1000px);
     opacity: 0;
+    color: #08fdd8;
   }
   100% {
     -webkit-transform: translateX(0);

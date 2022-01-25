@@ -1,6 +1,19 @@
-.home__greeting--header {
+.greeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.greeting__header {
   /* font-family: "Raleway", sans-serif; */
   font-family: "Dongle", sans-serif;
   color: #fff;
   padding: 5px;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

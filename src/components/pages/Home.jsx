@@ -1,5 +1,4 @@
 import React from 'react';
-import Socials from '../Socials';
 import Greeting from '../Greeting';
 
 export default function Home() {
@@ -9,9 +8,6 @@ export default function Home() {
         <div className="home__greeting">
             <Greeting />
          </div>
-         <div className="socials-container">
-          <Socials />
-        </div>
       </div>
       </>
   );

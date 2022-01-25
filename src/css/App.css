@@ -19,6 +19,7 @@
 
 html {
   font-size: 30px;
+  overflow-x: hidden;
 }
 
 a:link {
