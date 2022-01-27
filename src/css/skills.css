@@ -1,0 +1,52 @@
+.skills__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+
+.skills h2 {
+  margin-top: 2rem;
+  font-family: "Dongle", sans-serif;
+  color: #08fdd8;
+  font-weight: 900px;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.skills__grid-item {
+  height: 100px;
+  width: 150px;
+  text-align: center;
+}
+
+.skills__grid-item:hover p {
+  color: #08fdd8;
+  cursor: default;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . .";
+  }
+  .skills__grid-item {
+    height: 75px;
+    width: 100px;
+  }
+  .skills__grid-item p {
+    font-size: 1rem;
+  }
+}

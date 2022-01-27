@@ -17,6 +17,7 @@
 .project-card img {
   height: auto;
   width: 40%;
+  border: 2px solid #fff;
 }
 
 .project-card__btn-container {

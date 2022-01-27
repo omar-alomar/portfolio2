@@ -6,6 +6,7 @@ import mbaEng from '../../assets/img/mba-eng.png';
 import omegaSolutions from '../../assets/img/omegaSolutions.png';
 import shippingSolutions from '../../assets/img/shippingSolutions.png';
 import CodeIcon from '@mui/icons-material/Code';
+import CodeOffIcon from '@mui/icons-material/CodeOff';
 
 
 export default function Projects() {
@@ -42,7 +43,7 @@ const projectList = [
    },
    {id: 4,
     name: 'OpenAI Landing Page',
-    desc: 'React landing page for OpenAI GPT-3 I built from a figma file I found online.',
+    desc: 'React landing page for OpenAI GPT-3 I built from a figma design I found online.',
     img: gpt3,
     liveLink: '',
     gitLink: 'https://github.com/omar-alomar/gpt3Demo'
@@ -62,6 +63,7 @@ const projectElement = projectList.map(project => {
           <h2>A few of my most recent projects.</h2>
           <br/><span className="projects__break"><CodeIcon/></span>
           {projectElement}
+          <span className="projects__break--end"><CodeOffIcon/></span>
         </div>
       </>
   );

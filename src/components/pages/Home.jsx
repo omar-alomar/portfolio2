@@ -9,7 +9,6 @@ export default function Home() {
         <div className="home__greeting">
             <Greeting />
          </div>
-
       </div>
       </>
   );
