@@ -38,14 +38,14 @@ const projectList = [
     name: 'Crypto App',
     desc: 'A web app that uses Redux and API calls to get the latest cryptocurrency prices, information, and news.',
     img: cryptoApp,
-    liveLink: '',
+    liveLink: 'https://omar-alomar.github.io/crypto-app',
     gitLink: 'https://github.com/omar-alomar/crypto-app'
    },
    {id: 4,
     name: 'OpenAI Landing Page',
     desc: 'React landing page for OpenAI GPT-3 I built from a figma design I found online.',
     img: gpt3,
-    liveLink: '',
+    liveLink: 'https://omar-alomar.github.io/gpt3Demo',
     gitLink: 'https://github.com/omar-alomar/gpt3Demo'
    },
 ]
