@@ -12,7 +12,7 @@ export default function Greeting() {
   // updates rendered state after animation 
   setTimeout(() => {
     setRendered(true)
-  },15000);
+  },14000);
 
   const particlesInit = (main) => {
     console.log(main);
