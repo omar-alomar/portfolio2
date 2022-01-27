@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Resume from "../../resume.pdf"
+import Resume from "../../assets/resume.pdf"
 
 
 export default function About() {

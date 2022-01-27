@@ -1,5 +1,4 @@
-import React, {useState, useContext } from 'react';
-import { RenderContext } from '../App'
+import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 

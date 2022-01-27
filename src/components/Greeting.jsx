@@ -10,14 +10,14 @@ export default function Greeting() {
   // updates rendered state after animation 
   setTimeout(() => {
     setRendered(true)
-  },19000);
+  },15000);
 if (rendered === false) {
 return (
       <>
       <div className="greeting">
         <h1 className="greeting__header">
           <Typewriter 
-              // options={{delay: 110}}
+              options={{delay: 110}}
               onInit={(typewriter) => {
               typewriter.typeString("<span>Hi</span>")
               .pauseFor(200)
