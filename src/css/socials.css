@@ -8,16 +8,16 @@
 
 .socials__icon--left {
   padding: 20px;
-  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    12.5s both;
-  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 12.5s both;
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 7s
+    both;
+  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 7s both;
 }
 
 .socials__icon--right {
   padding: 20px;
-  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    12.5s both;
-  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 12.5s both;
+  -webkit-animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 7s
+    both;
+  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 7s both;
 }
 
 .socials__icon--left--static {

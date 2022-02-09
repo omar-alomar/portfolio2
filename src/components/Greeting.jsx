@@ -12,7 +12,7 @@ export default function Greeting() {
   // updates rendered state after animation 
   setTimeout(() => {
     setRendered(true)
-  },14000);
+  },7300);
 
   const particlesInit = (main) => {
     console.log(main);
@@ -29,19 +29,18 @@ return (
       <div className="greeting">
         <h1 className="greeting__header">
           <Typewriter 
-              options={{delay: 110}}
+              options={{delay: 70}}
               onInit={(typewriter) => {
               typewriter.typeString("<span>Hi</span>")
-              .pauseFor(200)
               typewriter.typeString("<span>.</span>")
-              .pauseFor(1000)
+              .pauseFor(600)
               .typeString("<br/>I'm Omar,")
-              .pauseFor(1000)
+              .pauseFor(100)
               .typeString("<br/>Web Designer.")
-              .pauseFor(1000)
+              .pauseFor(100)
               .deleteChars(7)
               .typeString("veloper.")
-              .pauseFor(1000)
+              .pauseFor(100)
               .typeString("<br/><span style='color: #8d8d8d; font-size: 40px;'>Check out my stuff!</span>")
               .start();
                 }}
@@ -72,7 +71,7 @@ else return (
             style={{marginTop: "6vh"}}
             height="94vh"
             options={{
-              fpsLimit: 60,
+              fpsLimit: 30,
               interactivity: {
                 events: {
                   onClick: {
@@ -120,7 +119,7 @@ else return (
                   enable: true,
                   outMode: "bounce",
                   random: false,
-                  speed: 6,
+                  speed: 5,
                   straight: false,
                 },
                 number: {

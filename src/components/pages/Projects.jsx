@@ -5,6 +5,7 @@ import gpt3 from '../../assets/img/gpt3.png';
 import mbaEng from '../../assets/img/mba-eng.png';
 import omegaSolutions from '../../assets/img/omegaSolutions.png';
 import shippingSolutions from '../../assets/img/shippingSolutions.png';
+import cafeColumbia from '../../assets/img/cafeColumbia.png';
 import CodeIcon from '@mui/icons-material/Code';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
 
@@ -21,27 +22,34 @@ const projectList = [
    gitLink: 'https://github.com/omar-alomar/omega-solutions'
   },
   {id: 1,
+    name: 'Cafe Columbia',
+    desc: 'React website for a local cafe.',
+    img: cafeColumbia,
+    liveLink: 'https://omar-alomar.github.io/cafe-columbia',
+    gitLink: 'https://github.com/omar-alomar/cafe-columbia'
+   },
+  {id: 2,
     name: 'Mildenberg Boender and Associates',
     desc: 'A Wordpress site for a land development business',
     img: mbaEng,
     liveLink: 'https://mba-eng.com/',
     gitLink: ''
    },
-   {id: 2,
+   {id: 3,
     name: 'Shipping Solutions',
-    desc: 'A web app built for use by shipping companies to manage orders, clients, and business operations. Class project.',
+    desc: 'A web app built for use by shipping companies to manage orders, clients, and business operations.',
     img: shippingSolutions,
     liveLink: '',
     gitLink: 'https://github.com/omar-alomar/shippingSolutions'
    },
-   {id: 3,
+   {id: 4,
     name: 'Crypto App',
     desc: 'A web app that uses Redux and API calls to get the latest cryptocurrency prices, information, and news.',
     img: cryptoApp,
     liveLink: 'https://omar-alomar.github.io/crypto-app',
     gitLink: 'https://github.com/omar-alomar/crypto-app'
    },
-   {id: 4,
+   {id: 5,
     name: 'OpenAI Landing Page',
     desc: 'React landing page for OpenAI GPT-3 I built from a figma design I found online.',
     img: gpt3,
