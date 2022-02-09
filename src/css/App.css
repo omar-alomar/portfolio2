@@ -31,9 +31,3 @@ a:link {
 body {
   background-color: #1d1d1d;
 }
-
-@media only screen and (max-width: 600px) {
-  html {
-    font-size: 0.9rem;
-  }
-}
